@@ -1,3 +1,244 @@
 html , body{
-font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	margin: 0 ;
+	padding: 0;
+	width: 1200px;
 }
+
+header{
+	width: 100%;
+	background-color:#333447;
+	display: table;
+}
+nav{
+	width: 100%;
+
+}
+.fuente{
+	width: 100%;
+	display: table;
+}
+.uno , .dos{
+	display: inline-block;
+}
+.lista{
+	list-style: none;
+	color: white;
+	display: inline-block;
+	margin: 10px 40px;
+}
+.formulario{
+	position: absolute;
+	top: 100px;
+	right: 130px;
+	background-color: white;
+	padding: 30px;
+}
+h1 ,h5{
+	color: #352384
+/*text form:#728099
+*/
+}
+input{
+	border-top: 2px;
+}
+form{
+
+}
+.bloq{
+	display: inline-block;
+	font-size: 20px;
+	margin-left: 10px;
+}
+.but{
+	background-color: #FF00BF;
+	border-radius: 9px;
+	color: white;
+	padding: 20px;
+}
+.fondo{
+ /* background-color:#333447;*/
+  background-image: linear-gradient(#76278f ,#2B1E66);
+
+}
+.bloques{
+	display: table;
+	width: 100%;
+	color: white ;
+	position: relative;
+}
+.text-1{
+	display: inline-block;
+}
+.text-1 img{
+	height: 700px;
+	margin: 20px;
+
+}
+.text-1-1{
+	top: 20px;
+	position: absolute;
+}
+.coment{
+	padding:30px 0;
+	margin-left: 50px;
+}
+.coment > p{
+	font-size: 10px;
+}
+
+.text-1 >img{
+	right: -400px;
+	position: relative;
+}
+
+/*header{
+	display: table;
+	box-sizing: border-box;
+	width: 100%;
+	height:500px;
+	margin: 0;
+	padding: 0;
+}
+.lista{
+	list-style: none;
+	color: white;
+	display: inline-block;
+	justify-content: center;
+}
+nav{
+	background-color:#333447;
+	height: 50px;
+}
+/*
+.lista{
+	color: white;
+	text-decoration: none;
+	list-style: none;
+	display: inline-block;
+	margin: 0px 20px;
+}
+a{
+	color: white;
+	text-decoration:none;
+}
+.uno ,.dos{
+	width: 49%;
+	display: inline-block;
+	height: 100px;
+}
+nav{
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: #fff;
+  height: 80px;
+  z-index: 1000;
+  margin-top: 0;
+  position: fixed;
+  padding-top: 0px;
+  background: none;
+  transition: all 0.6s cubic-bezier(0.7, 0.01, 0.3, 1);
+  background-color:#333447;
+  background-image: linear-gradient(#76278f ,#2B1E66);
+}
+.logo{
+  left:0px;
+  top:0px;
+  width: 400px;
+  height: 150px;
+  text-align: left;
+  /*background-color:rgb(51, 52, 71);
+  background-repeat: no-repeat;
+  background-image: url(img-lyft/logo-white.png);
+}
+video{
+	/*width: 100%;
+	height: 600px;
+}
+.parte-2{
+	 background-image: linear-gradient(#76278f ,#2B1E66);
+	 width: 100%
+	 height: 900px;
+	 color: white;
+	 display: block;
+	 box-sizing: border-box;
+}
+.text-1{
+	height: 400px;
+	width:500px; 
+	display: inline-block;
+	position: absolute;
+}
+.text-1 >img{
+	position: absolute;
+	left:S 0;
+}
+ .logos{
+ 	height: 40px;
+ 	width: 100px;
+ 	display: block;
+ 	position: relative;
+ 	bottom: 0px;
+ 	padding: 30px;
+ }
+ .texto{
+ 	display: inline-block;
+ }
+ .indice{
+ 	list-style: none;
+ 	display: list-item;
+ 	padding: 25px;
+ }
+ .barra{
+ 	display: inline-block;
+ 	width: 200px;
+ 	margin: 30px;
+
+ }
+ .texto{
+
+ }
+ .body-videos{
+ 	height: 1800px;
+ 	/*box-sizing: border-box;
+ 	display: block;
+ }
+ .video-text{
+    display: inline-block;
+	width: 600px;
+ }
+ .videos{
+    margin: 0;
+    height: 600px;
+    width: 100%;
+    display: tab;
+ }
+ .video-size{
+ 	width: 1100px;
+ 	height:600px;
+ 	display: inline-block;
+ }
+ footer{
+ 	/*box-sizing: border-box;
+ 	width: 100%;
+ 	background-color: #333447;
+ 	color: white;
+ 	display: block;
+ 	height: 600px;
+ }
+ hr{
+ 	width: 50%;
+ 	text-align: center;
+ }
+ .firma{
+ 	text-align: center;
+ }
+/*botones , hover . # FF00BF
+nav blanco letras azules y fondo del footer :#333447
+titulos de form:#352384
+text form:#728099
+gradiente morado: linear-gradient(#76278f ,#2B1E66)*/
+/*
+
+/*<video class="layer-0 bg-cover pos-a-lg flex1 QTo_ZC" poster="https://cdn.lyft.com/brochure/homepage-hero-poster.8ec795d5.jpg" autoplay="" loop="" muted="" data-reactid="80" playsinline=""><source src="https://cdn.lyft.com/brochure/videos/hero-video-opt.mp4" type="video/mp4" data-reactid="81"></video>*/
