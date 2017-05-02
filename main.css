@@ -12,10 +12,16 @@ header{
 	position: relative;
 	float: left;
 	height: 100px;
+	z-index: 10;
+	position: fixed;
+}
+
+.scrollon{
+	background-color: white;
+	color: #333447;
 }
 nav{
 	width: 100%;
-	display: fixed;
 }
 .logo{
 	height: 50px;
