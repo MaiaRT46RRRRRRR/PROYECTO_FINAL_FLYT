@@ -39,8 +39,16 @@ nav{
 	position: absolute;
 }
 
+input{
+	font-family: 'Montserrat', sans-serif;
+	color: #bfc7d9;
+	border: 1px solid white;
+	background-color: transparent;
+	border-bottom: 1px solid #bfc7d9;
+}
 .lista >div{
 	border: 1px solid white;
+	padding: 9px;
 	border-radius: 7px;
 	padding: 5px;
 }
@@ -57,22 +65,28 @@ nav{
 	background-color: white;
 	padding: 30px;
 }
+.formulario > h1{
+	width: 200px;
+	font-size: 30px;
+}
+.nota >p{
+	font-size: 8px;
+	margin-top: 20px;
+
+}
 h1 ,h5{
 	color: #352384
 }
-input{
-	border-top: 2px;
-}
 .bloq{
 	display: inline-block;
-	font-size: 20px;
+	font-size: 10px;
 	margin-left: 10px;
 }
-.but{
+button{
 	background-color: #FF00BF;
 	border-radius: 9px;
 	color: white;
-	padding: 20px;
+	padding: 10px;
 }
 .fondo{
  /* background-color:#333447;*/
@@ -164,4 +178,10 @@ hr{
 }
 .indice:hover{
 	color: #FF00BF;
+}
+.invisible{
+	display: none;
+}
+.visible{
+ display: block;
 }
